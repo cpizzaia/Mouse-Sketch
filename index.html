@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mouse Sketch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="js/jQuery.js"></script>
+	<script src="js/mouse_sketch.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="headerContainer">
+			<p id="resolutionText">Enter a block size (2-800) to change the resolution</p>
+			<button id="resolutionButton" type="button" onclick="resolution()">
+			Enter
+			</button>
+			<input id="pixelSize">
+			<button id="resetButton" type="button" onclick="reset()">
+			Reset Grid
+			</button>
+
+			<input id="progressive" onclick="idk()" type="checkbox">
+				<p id="checkboxWriting">Progressive Mode</p>
+			</input>
+
+		</div>	
+	</div>
+	<div id="container">	
+	</div>
+</body>
+</html>

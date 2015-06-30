@@ -1,0 +1,62 @@
+#container{
+	margin: auto;
+	width: 800px;
+	height: 800px;
+}
+
+#headerContainer{
+	margin: auto;
+	width: 800px;
+	height: 800px;
+}
+
+#header{
+	height: 100px;
+
+}
+
+.square{
+	float:left;
+	background-color: #C0C0C0;
+	width: 40px;
+	height: 40px;
+}
+
+.row{
+	clear: both;
+}
+
+
+
+#resolutionText{
+	position: relative;
+	float: right;
+	top: 30px;
+	right: 40px;
+
+}
+
+#resetButton{
+	position: relative;
+	top: 70px;
+	left: 340px;
+	}
+
+#pixelSize, #resolutionButton{
+	position: relative;
+	top: 70px;
+	float: right;
+	left: 230px;
+}
+
+#progressive{
+	position: relative;
+	top: 70px;
+}
+
+#checkboxWriting{
+	position: relative;
+	left: 105px;
+	top: 33px;
+	width: 150px;
+}
