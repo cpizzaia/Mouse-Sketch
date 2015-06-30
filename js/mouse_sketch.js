@@ -28,7 +28,7 @@ function resolution(){
 	var userInput = document.getElementById("pixelSize").value;
 	var color, newColor;
 
-	if(((800 % userInput) == 0) && (userInput != 1)){
+	if(((800 % userInput) == 0) && (userInput != 1) && (userInput != 2)){
 		var userInput = document.getElementById("pixelSize").value;
 		$(".row").remove();
 		$(".square").remove();
@@ -58,7 +58,7 @@ function resolution(){
 	}
 
 	else{
-		alert("Number must be a factor of 800 and cannot be 1.")
+		alert("Number must be a factor of 800 and cannot be 1 or 2.")
 	}
 
 }
